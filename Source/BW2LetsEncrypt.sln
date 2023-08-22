@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34003.232
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{9AA4004D-2418-4292-8C36-8E359011FE1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{7667E905-1FDB-41B8-8F5C-8D7625D11AD9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{CC891FCA-E195-44DC-8076-54C4BABCE119}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_SolutionItems", "_SolutionItems", "{2C470E82-13FC-4932-ABB0-EF97DC2A639C}"
+	ProjectSection(SolutionItems) = preProject
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LetsEncrypt.Client", "LetsEncrypt.Client\LetsEncrypt.Client.csproj", "{8356492B-89F1-4C3B-ABE9-41F0FE3C7F86}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BW2LetsEncrypt.FormApp", "BW2LetsEncrypt.Form\BW2LetsEncrypt.FormApp.csproj", "{590D3DDC-177E-409A-A741-6C3CBC6EDFC5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BW2LetsEncrypt.ConsoleApp", "BW2LetsEncrypt.ConsoleApp\BW2LetsEncrypt.ConsoleApp.csproj", "{03E4BCE6-2AE6-4844-A698-2D51392D6CEF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BW2LetsEncrypt.Test", "BW2LetsEncrypt.Test\BW2LetsEncrypt.Test.csproj", "{452F96B9-2D71-42A2-8A7B-79325BD17E50}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8356492B-89F1-4C3B-ABE9-41F0FE3C7F86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8356492B-89F1-4C3B-ABE9-41F0FE3C7F86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8356492B-89F1-4C3B-ABE9-41F0FE3C7F86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8356492B-89F1-4C3B-ABE9-41F0FE3C7F86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{590D3DDC-177E-409A-A741-6C3CBC6EDFC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{590D3DDC-177E-409A-A741-6C3CBC6EDFC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{590D3DDC-177E-409A-A741-6C3CBC6EDFC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{590D3DDC-177E-409A-A741-6C3CBC6EDFC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03E4BCE6-2AE6-4844-A698-2D51392D6CEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03E4BCE6-2AE6-4844-A698-2D51392D6CEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03E4BCE6-2AE6-4844-A698-2D51392D6CEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03E4BCE6-2AE6-4844-A698-2D51392D6CEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{452F96B9-2D71-42A2-8A7B-79325BD17E50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{452F96B9-2D71-42A2-8A7B-79325BD17E50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{452F96B9-2D71-42A2-8A7B-79325BD17E50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{452F96B9-2D71-42A2-8A7B-79325BD17E50}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8356492B-89F1-4C3B-ABE9-41F0FE3C7F86} = {9AA4004D-2418-4292-8C36-8E359011FE1A}
+		{590D3DDC-177E-409A-A741-6C3CBC6EDFC5} = {CC891FCA-E195-44DC-8076-54C4BABCE119}
+		{03E4BCE6-2AE6-4844-A698-2D51392D6CEF} = {CC891FCA-E195-44DC-8076-54C4BABCE119}
+		{452F96B9-2D71-42A2-8A7B-79325BD17E50} = {7667E905-1FDB-41B8-8F5C-8D7625D11AD9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25ED67A4-330F-49AC-9DFB-F1B57E856DEB}
+	EndGlobalSection
+EndGlobal
